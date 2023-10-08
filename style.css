@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Lato&family=Rubik+Vinyl&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.background1 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    /* Opacity vermek için */ url(images/bg.jpg);
+  background-size: cover; /* arka planı kaplatır*/
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Arkaplan sabitlenir */
+}
+
+.background1 h1 {
+  background-color: #4c4c4c;
+  width: 30rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* yatayda ve dikeyde merkezlenmesi için background1'e göre */
+
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  padding: 1.5rem;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  outline: 10px inset #a366a5;
+  outline-offset: 1rem;
+}
+
+.paragraf {
+  text-align: center;
+  padding: 2rem;
+}
+
+.paragraf h2 {
+  margin: 1rem;
+}
+
+.paragraf p {
+  line-height: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.full-stack {
+  background-color: #f1f1f1;
+}
+
+.background2 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/bg2.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.background2 img {
+  width: 30rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.6;
+}
+
+.aws {
+  background-color: #282e34;
+  color: #dddddd;
+}
+.background3 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/bg3.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.background3 p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 47rem;
+  background-color: #4c4c4c;
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  padding: 0.5rem 0rem;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: 7px inset #a366a5;
+  outline-offset: 0.3rem;
+}
+
+.background4 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/bg4.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.background4 p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  background-color: #4c4c4c;
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  /* padding: 1rem; */
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: 7px inset #a366a5;
+  outline-offset: 0.3rem;
+}
+.why_cw {
+  background-color: #282e34;
+  color: #dddddd;
+}
+
+.background_last {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/bg1.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.background_last h1 {
+  width: 47rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4c4c4c;
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  outline: 7px inset #a366a5;
+  outline-offset: 1rem;
+}
